@@ -9,7 +9,7 @@ public class TestMain
 
 
             // Display Main Screen
-            myDisplayScreen.displayScreenMain() ;
+            MyDisplayScreen.displayScreenMain() ;
 
 
     }

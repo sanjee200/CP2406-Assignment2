@@ -11,7 +11,7 @@ import java.util.Random;
  * Created by Sanjeewa on 22/10/2016.
  */
 
-public class myDisplayScreen extends JFrame implements ActionListener, MouseListener
+public class MyDisplayScreen extends JFrame implements ActionListener, MouseListener
 {
 
     // Create all the players card pack
@@ -39,11 +39,11 @@ public class myDisplayScreen extends JFrame implements ActionListener, MouseList
     JButton butExit     = new JButton("Exit Game") ;
     JLabel labMessage1  = new JLabel("Selects Start or Quit") ;
 
-    JLabel labCardsSelect = new JLabel("") ;
-    JLabel labCardsDisplay = new JLabel("") ;
+    JLabel labCardsSelect = new JLabel("a") ;
+    JLabel labCardsDisplay = new JLabel("a") ;
 
 
-    public myDisplayScreen()
+    public MyDisplayScreen()
     {
         myInputControls() ;
         myEventListeners();
@@ -52,7 +52,7 @@ public class myDisplayScreen extends JFrame implements ActionListener, MouseList
 
     public static void displayScreenMain()
     {
-        myDisplayScreen myFrameMain = new myDisplayScreen();
+        MyDisplayScreen myFrameMain = new MyDisplayScreen();
         myFrameMain.setVisible(true);
     }
 

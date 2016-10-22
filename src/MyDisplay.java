@@ -54,7 +54,7 @@ public class MyDisplay extends JPanel implements ActionListener, MouseListener
     JLabel labMessage1  = new JLabel("Selects Start or Quit") ;
 
     // *** remove static
-    public static JLabel labCardsSelect = new JLabel("Select a card") ;
+    public static JLabel labCardsSelect = new JLabel("Select a cardaaaaa") ;
     public static JLabel labCardsDisplay = new JLabel("Display Cards") ;
 
     // Images

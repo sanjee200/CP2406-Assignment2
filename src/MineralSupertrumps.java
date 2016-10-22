@@ -28,8 +28,7 @@ public class MineralSupertrumps
             }
 
             // Display Main Screen
-            MyDisplay.displayMainScreen() ;
-
+            MyDisplayScreen.displayScreenMain() ;
 
             // end
             System.out.println(MyConfig.myName);
