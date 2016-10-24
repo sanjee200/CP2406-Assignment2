@@ -7,6 +7,16 @@
 public class MyCategory
 {
 
+    static String[] myCategory = {
+        ""
+        , "Hardness"
+        , "Specific Gravity"
+        , "Cleavage"
+        , "Crustal Abundance"
+        , "Economic Value"
+    } ;
+
+
     static String[] myCleavageArray = {
           "none"
         , "poor/none"

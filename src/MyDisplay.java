@@ -139,8 +139,6 @@ public class MyDisplay extends JPanel implements ActionListener, MouseListener
             }
             labMessage1.setText("Validated");
             butStart.setEnabled(false);
-            //labCardsSelect.setIcon( new ImageIcon( "Cards/Slide01.jpg" ) ) ;
-            //repaint();
 
             gameStart() ;
 

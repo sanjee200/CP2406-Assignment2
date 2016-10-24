@@ -36,6 +36,7 @@ public class MyCard
     public String economicValueAndIndex ;      // economic value index
 
 
+
     public String[] myCategory = {
           ""
         , "Hardness"
@@ -164,6 +165,12 @@ public class MyCard
         System.out.println( "Card number      : " + cardNumber ) ;
         System.out.println( "has "
             + ( pNumberOfCards == 0 ? "No" : pNumberOfCards ) + " card(s) in hand now" ) ;
+    }
+
+    public String getCategory( int pCategoryNumber )
+    {
+        return "Hello" ;
+        // return (myCategory[ pCategoryNumber ]) ;
     }
 
 

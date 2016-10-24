@@ -28,7 +28,7 @@ public class MyConfig
     public  static ArrayList<Integer> myCardsPackDeck = new ArrayList<Integer>() ;        // Main Dynamic Deck
 
     // **
-    public  static final int INITIAL_DEAL = 3 ;         // 8 Number of cards to deal initially
+    public  static final int INITIAL_DEAL = 8 ;         // 8 Number of cards to deal initially
 
     // Constants
     public static final int    NUMBER_OF_PLAYERS_MINIMUM = 3 ;

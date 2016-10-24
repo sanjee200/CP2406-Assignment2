@@ -122,7 +122,8 @@ public class MyCommon
 
             catch (Exception e)
             {
-                myMessage = "'" + pValue + "' for "+ pValueName +" has to be an integer" ;
+                myMessage = pValueName +" has to be an integer ('"
+                    + pValue + "' is invalid)" ;
             }
             finally
             {
@@ -207,6 +208,13 @@ public class MyCommon
             }
         }
         return ( returnValue ) ;
+    }
+
+    public static String convertToTwoChar(int pNumber)
+    {
+        //int myNumber =
+        //return (myNumber >=10 ? )
+        return "" ;
     }
 
 
